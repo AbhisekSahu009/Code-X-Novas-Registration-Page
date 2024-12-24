@@ -17,7 +17,7 @@
     background-position: center;
   }
 
-  .registration_form{
+  .registration_form_reg{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,7 +35,7 @@
   /* Banner */
 
 
-  .banner{
+  .banner_reg{
     align-items: center;
     justify-content: center;
     padding-left: 5%;
@@ -44,21 +44,21 @@
 
 
   @media(max-width:1150px){
-    .responsive_svg{
+    .responsive_svg_reg{
         width: 900px;
     }
   }
 
 
   @media(max-width:855px){
-    .responsive_svg{
+    .responsive_svg_reg{
         width: 600px;
     }
   }
 
 
   @media(max-width:550px){
-    .responsive_svg{
+    .responsive_svg_reg{
         width: 400px;
     }
   }
@@ -66,7 +66,7 @@
 
 
   @media(max-width:395px){
-    .responsive_svg{
+    .responsive_svg_reg{
         width: 300px;
     }
   }
@@ -79,7 +79,7 @@
 
   /* Exploration */
 
-  .exploration{
+  .exploration_reg{
     font-size: 85px;
     font-family: 'Iceberg', sans-serif;
     font-weight: 400;
@@ -91,28 +91,28 @@
 
 
   @media(max-width:1150px){
-    .exploration{
+    .exploration_reg{
         font-size: 60px;
     }
   }
 
 
   @media(max-width:855px){
-    .exploration{
+    .exploration_reg{
       font-size: 40px;
     }
   }
 
 
   @media(max-width:550px){
-    .exploration{
+    .exploration_reg{
       font-size: 27px;
       margin-top: 5px;
     }
   }
 
   @media(max-width:395px){
-    .exploration{
+    .exploration_reg{
       font-size: 23px;
       margin-top: 5px;
     }
@@ -130,7 +130,7 @@
 
   /* Form-Heading */
 
-  .form_head{
+  .form_head_reg{
     font-size: 40px;
     font-family: 'Digital Numbers', sans-serif;
     font-weight: 400;
@@ -139,21 +139,21 @@
 
 
   @media(max-width:1150px){
-    .form_head{
+    .form_head_reg{
         font-size: 30px;
     }
   }
 
 
   @media(max-width:855px){
-    .form_head{
+    .form_head_reg{
       font-size: 20px;
     }
   }
 
 
   @media(max-width:550px){
-    .form_head{
+    .form_head_reg{
       font-size: 15px;
       margin-top: 5px;
       margin-bottom: 5px;
@@ -161,7 +161,7 @@
   }
 
   @media(max-width:395px){
-    .form_head{
+    .form_head_reg{
       font-size: 12px;
       margin-top: 5px;
       margin-bottom: 9px;
@@ -179,7 +179,7 @@
 
   /* Registration Form */
 
-  .reg_form{
+  .reg_form_reg{
     display: flex;
     flex-direction: row;
     gap: 25px;
@@ -192,7 +192,7 @@
 
 
 
-  .form{
+  .form_reg{
     border: 2px solid rgba(255, 255, 255, 0.1);
     background: rgba(234, 238, 246, 0.2); 
     backdrop-filter: blur(10px); 
@@ -205,7 +205,7 @@
   }
 
 
-  .form1{
+  .form1_reg{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -214,7 +214,7 @@
     
   }
 
-  .form_s{
+  .form_s_reg{
     border: 2px solid rgba(255, 255, 255, 0.1);
     background: rgba(234, 238, 246, 0.2); 
     backdrop-filter: blur(10px); 
@@ -227,7 +227,7 @@
   }
 
 
-  .form1_s{
+  .form1_s_reg{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -237,7 +237,7 @@
   }
 
 
-  .form-col{
+  .form-col_reg{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -267,7 +267,7 @@
 
 
 
-.form-group textarea {
+.form-group_reg textarea {
     width: 200px  ;       
     height: 300px;     
     padding: 10px;     
@@ -280,12 +280,12 @@
 }
   
 
-.form-group{
+.form-group_reg{
     padding-inline-start: 21px;
 }
 
 
-.head1{
+.head1_reg{
     padding-inline-start: 25px;
     color: whitesmoke;
     font-size: 16px;
@@ -294,7 +294,7 @@
   
   
   
-/* .lower-middle{
+/* .lower-middle_reg{
       display: flex;
       flex-direction: column;
       gap: 30px;
@@ -311,13 +311,13 @@
 
 
    @media(max-width:111150px){
-    .form_s{
+    .form_s_reg{
       display: none;
     }
    }
 
    @media(max-width:1150px){
-    .form{
+    .form_reg{
       padding: 40px 20px 40px 10px;
       border-radius: 21px;
       width: 400px;
@@ -328,7 +328,7 @@
         width: 335px;
     }
 
-    .reg_form{
+    .reg_form_reg{
         padding-left: 2%;
     }
 
@@ -336,14 +336,14 @@
 
 
   @media(max-width:960px){
-    .reg_form{
+    .reg_form_reg{
         padding-left: 2%;
     }
   }
 
   
   @media(max-width:855px){
-    .form{
+    .form_reg{
       padding: 40px 20px 30px 0px;
       border-radius: 21px;
       width: 350px;
@@ -355,11 +355,11 @@
       font-size: 13px;
     }
 
-    .form-group1 textarea{
+    .form-group1_reg textarea{
       font-size: 13px;
     }
 
-    .head1{
+    .head1_reg{
       font-size: 14px;
     }
     
@@ -368,49 +368,49 @@
 
 
   @media(max-width:755px){
-    .form{
+    .form_reg{
       display: none;
     }
 
-    .form_s{
+    .form_s_reg{
       display: flex;
     }
 
-    .reg_form{
+    .reg_form_reg{
       padding-left: 1%;
     }
   }
 
 
   @media(max-width:435px){
-    .form{
+    .form_reg{
       display: none;
     }
 
-    .form_s{
+    .form_s_reg{
       display: flex;
       width: 370px;
       padding: 40px 20px 40px 5px;
     }
 
-    .reg_form{
+    .reg_form_reg{
       padding-left: 1%;
     }
   }
 
 
   @media(max-width:395px){
-    .form{
+    .form_reg{
       display: none;
     }
 
-    .form_s{
+    .form_s_reg{
       display: flex;
       width: 330px;
       padding: 30px 20px 40px 5px;
     }
 
-    .reg_form{
+    .reg_form_reg{
       padding-left: 1%;
     }
 
@@ -429,17 +429,17 @@
 
 
   @media(max-width:345px){
-    .form{
+    .form_reg{
       display: none;
     }
 
-    .form_s{
+    .form_s_reg{
       display: flex;
       width: 300px;
       padding: 30px 20px 40px 5px;
     }
 
-    .reg_form{
+    .reg_form_reg{
       padding-left: 1%;
     }
 
@@ -464,7 +464,7 @@
    /* Proceed Button */
 
 
-   .btn{
+   .btn_reg{
     border: 2px solid rgba(11, 11, 189, 0.5);
     border-radius: 11px;
     padding: 9px;
@@ -478,7 +478,7 @@
   }
 
 
-  .btn:hover{
+  .btn_reg:hover{
     cursor: pointer;
     transform: scale(1.07);
   }
@@ -486,7 +486,7 @@
 
 
   @media(max-width:1150px){
-    .btn{
+    .btn_reg{
         width: 300px;
         height: 55px;
         font-size: 20px;
@@ -495,7 +495,7 @@
 
 
   @media(max-width:755px){
-    .btn{
+    .btn_reg{
       width: 270px;
       height: 52px;
       font-size: 18.5px;
@@ -503,14 +503,14 @@
   }
 
   @media(max-width:605px){
-    .btn{
+    .btn_reg{
      margin-top: 10px;
   }
   }
   
 
   @media(max-width:435px){
-    .btn{
+    .btn_reg{
       margin-top: 20px;
       width: 245px;
       height: 49px;
@@ -521,7 +521,7 @@
 
   
   @media(max-width:395px){
-    .btn{
+    .btn_reg{
       margin-top: 20px;
       width: 230px;
       height: 47.5px;
@@ -531,7 +531,7 @@
 
 
   @media(max-width:345px){
-    .btn{
+    .btn_reg{
       margin-top: 20px;
       width: 215px;
       height: 45px;

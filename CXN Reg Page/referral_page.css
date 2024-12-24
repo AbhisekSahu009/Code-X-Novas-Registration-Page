@@ -17,7 +17,7 @@
     background-position: center;
   }
 
-  .terms_con{
+  .terms_con_ref{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,7 +35,7 @@
   /* Banner */
 
 
-  .banner{
+  .banner_ref{
     align-items: center;
     justify-content: center;
     padding-left: 5%;
@@ -44,21 +44,21 @@
 
 
   @media(max-width:1150px){
-    .responsive_svg{
+    .responsive_svg_ref{
         width: 900px;
     }
   }
 
 
   @media(max-width:855px){
-    .responsive_svg{
+    .responsive_svg_ref{
         width: 600px;
     }
   }
 
 
   @media(max-width:550px){
-    .responsive_svg{
+    .responsive_svg_ref{
         width: 400px;
     }
   }
@@ -66,7 +66,7 @@
 
 
   @media(max-width:395px){
-    .responsive_svg{
+    .responsive_svg_ref{
         width: 300px;
     }
   }
@@ -79,7 +79,7 @@
 
   /* Exploration */
 
-  .exploration{
+  .exploration_ref{
     font-size: 85px;
     font-family: 'Iceberg', sans-serif;
     font-weight: 400;
@@ -91,28 +91,28 @@
 
 
   @media(max-width:1150px){
-    .exploration{
+    .exploration_ref{
         font-size: 60px;
     }
   }
 
 
   @media(max-width:855px){
-    .exploration{
+    .exploration_ref{
       font-size: 40px;
     }
   }
 
 
   @media(max-width:550px){
-    .exploration{
+    .exploration_ref{
       font-size: 27px;
       margin-top: 5px;
     }
   }
 
   @media(max-width:395px){
-    .exploration{
+    .exploration_ref{
       font-size: 23px;
       margin-top: 5px;
     }
@@ -130,7 +130,7 @@
 
   /* Form-Heading */
 
-  .form_head{
+  .form_head_ref{
     font-size: 40px;
     font-family: 'Digital Numbers', sans-serif;
     font-weight: 400;
@@ -139,21 +139,21 @@
 
 
   @media(max-width:1150px){
-    .form_head{
+    .form_head_ref{
         font-size: 30px;
     }
   }
 
 
   @media(max-width:855px){
-    .form_head{
+    .form_head_ref{
       font-size: 20px;
     }
   }
 
 
   @media(max-width:550px){
-    .form_head{
+    .form_head_ref{
       font-size: 15px;
       margin-top: 5px;
       margin-bottom: 5px;
@@ -161,7 +161,7 @@
   }
 
   @media(max-width:395px){
-    .form_head{
+    .form_head_ref{
       font-size: 12px;
       margin-top: 5px;
       margin-bottom: 9px;
@@ -184,7 +184,7 @@
   /* Box of Terms and Conditions */
 
 
-  .box_col{
+  .box_col_ref{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -208,7 +208,7 @@
 
 
 
-  .term_head{
+  .term_head_ref{
     color: #ffffff;
     font-size: 30px;
     font-family: 'Electrolize', sans-serif;
@@ -216,7 +216,7 @@
   }
 
 
-  .points_row1{
+  .points_row1_ref{
     display: flex;
     flex-direction: row;
     justify-items: flex-start;
@@ -229,7 +229,7 @@
 
 
 
-  .points{
+  .points_ref{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -239,7 +239,7 @@
   }
 
 
-  .points1{
+  .points1_ref{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -252,7 +252,7 @@
   
 
 
-  .points_row{
+  .points_row_ref{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -263,7 +263,7 @@
 
 
 
-  .para1{
+  .para1_ref{
     color: #ffffff;
     font-weight: 400;
     font-size: 20px;
@@ -271,7 +271,7 @@
   }
 
 
-  .para{
+  .para_ref{
     color: #ffffff;
     font-weight: 400;
     font-size: 28px;
@@ -279,7 +279,7 @@
   }
 
 
-  .price1{
+  .price1_ref{
     color: #ffffff;
     font-weight: 400;
     font-size: 28px;
@@ -312,52 +312,52 @@
 
 
   @media(max-width:1045px){
-    .box_col{
+    .box_col_ref{
       width: 800px;
       height: 500px;
       padding-top: 0px;
     }
 
-    .points{
+    .points_ref{
       gap: 20px ;
     }
 
-    .points1{
+    .points1_ref{
       gap: 20px ;
     }
 
-    .term_head{
+    .term_head_ref{
       margin-top: 50px;
     }
 
   }
 
   @media(max-width:835px){
-    .box_col{
+    .box_col_ref{
       width: 600px;
       height: 430px;
     }
 
     
-    .term_head{
+    .term_head_ref{
       font-size: 23px;
       margin-top: 30px;
     }
 
-    .para{
+    .para_ref{
       font-size: 20px;
     }
 
-    .para1{
+    .para1_ref{
       font-size: 18px;
     }
 
-    .price1{
+    .price1_ref{
       font-size: 19px;
     }
 
     
-  .points_row{
+  .points_row_ref{
     margin-bottom: 70px;
   }
 
@@ -367,20 +367,20 @@
 
 
   @media(max-width:630px){
-    .box_col{
+    .box_col_ref{
       width: 500px;
       height: 410px;
     }
 
-    .para{
+    .para_ref{
       font-size: 16px;
     }
 
-    .para1{
+    .para1_ref{
       font-size: 15px;
     }
 
-    .price1{
+    .price1_ref{
       font-size: 15px;
     }
 
@@ -390,7 +390,7 @@
       width: 230px;
     }
 
-    .points_row{
+    .points_row_ref{
         margin-bottom: 50px;
     }
 
@@ -399,32 +399,32 @@
 
 
   @media(max-width:525px){
-    .box_col{
+    .box_col_ref{
       width: 450px;
       height: 365px;
     }
 
-    .points{
+    .points_ref{
       gap: 20px ;
     }
 
-    .term_head{
+    .term_head_ref{
       margin-top: 15px;
     }
 
-    .para{
+    .para_ref{
       font-size: 14px;
     }
 
-    .para1{
+    .para1_ref{
       font-size: 14px;
     }
 
-    .price1{
+    .price1_ref{
       font-size: 14px;
     }
 
-    .points_row{
+    .points_row_ref{
         margin-bottom: 35px;
     }
 
@@ -434,24 +434,24 @@
 
 
   @media(max-width:475px){
-    .box_col{
+    .box_col_ref{
       width: 400px;
       height: 350px;
     }
 
-    .points{
+    .points_ref{
       gap: 20px ;
     }
 
-    .term_head{
+    .term_head_ref{
       margin-top: 15px;
     }
 
-    .para{
+    .para_ref{
       font-size: 12.65px;
     }
 
-    .para1{
+    .para1_ref{
       font-size: 13px;
     }
 
@@ -461,31 +461,31 @@
       width: 200px;
     }
 
-    .points_row{
+    .points_row_ref{
         margin-bottom: 30px;
     }
   }
 
 
   @media(max-width:415px){
-    .box_col{
+    .box_col_ref{
       width: 375px;
       height: 330px;
     }
 
-    .points{
+    .points_ref{
       gap: 20px ;
     }
 
-    .term_head{
+    .term_head_ref{
       margin-top: 15px;
     }
 
-    .para{
+    .para_ref{
       font-size: 11px;
     }
 
-    .para1{
+    .para1_ref{
       font-size: 12px;
     }
 
@@ -499,7 +499,7 @@
       font-size: 10px;
     }
 
-    .points_row{
+    .points_row_ref{
         margin-bottom: 23px;
     }
 
@@ -508,29 +508,29 @@
 
 
   @media(max-width:385px){
-    .box_col{
+    .box_col_ref{
       width: 350px;
       height: 320px;
     }
 
-    .points{
+    .points_ref{
       gap: 20px ;
     }
 
-    .term_head{
+    .term_head_ref{
       font-size: 20px;
       margin-top: 12px;
     }
 
-    .para{
+    .para_ref{
       font-size: 10px;
     }
 
-    .para1{
+    .para1_ref{
       font-size: 11px;
     }
 
-    .price1{
+    .price1_ref{
       font-size: 11px;
     }
 
@@ -544,7 +544,7 @@
       font-size: 9px;
     }
 
-    .points_row{
+    .points_row_ref{
         margin-bottom: 17px;
     }
   }
@@ -552,32 +552,32 @@
 
 
   @media(max-width:365px){
-    .box_col{
+    .box_col_ref{
       width: 300px;
       height: 280px;
     }
 
-    .points{
+    .points_ref{
       gap: 20px ;
     }
 
-    .term_head{
+    .term_head_ref{
       font-size: 18px;
     }
 
-    .btn{
+    .btn_ref{
       margin-inline-start: 15px;
     }
 
-    .para{
+    .para_ref{
       font-size: 8px;
     }
 
-    .para1{
+    .para1_ref{
       font-size: 8px;
     }
 
-    .price1{
+    .price1_ref{
       font-size: 9px;
     }
 
@@ -591,7 +591,7 @@
       font-size: 7px;
     }
 
-    .points_row{
+    .points_row_ref{
         margin-bottom: 15px;
     }
     
@@ -617,7 +617,7 @@
    /* Accept Button */
 
 
-   .btn{
+   .btn_ref{
     border: 2px solid rgba(11, 11, 189, 0.5);
     border-radius: 11px;
     padding: 9px;
@@ -633,7 +633,7 @@
   }
 
 
-  .btn:hover{
+  .btn_ref:hover{
     cursor: pointer;
     transform: scale(1.07);
   }
@@ -641,7 +641,7 @@
 
 
   @media(max-width:1150px){
-    .btn{
+    .btn_ref{
         width: 300px;
         height: 55px;
         font-size: 20px;
@@ -656,7 +656,7 @@
   } */
 
   @media(max-width:630px){
-    .btn{
+    .btn_ref{
      margin-top: 30px;
      width: 270px;
      height: 52px;
@@ -666,7 +666,7 @@
   
 
   @media(max-width:475px){
-    .btn{
+    .btn_ref{
       margin-top: 20px;
       width: 245px;
       height: 49px;
@@ -679,7 +679,7 @@
 
   
   @media(max-width:415px){
-    .btn{
+    .btn_ref{
       margin-top: 10px;
       width: 230px;
       height: 45px;
@@ -689,7 +689,7 @@
 
 
   @media(max-width:365px){
-    .btn{
+    .btn_ref{
       margin-top: 5px;
       width: 185px;
       height: 40px;

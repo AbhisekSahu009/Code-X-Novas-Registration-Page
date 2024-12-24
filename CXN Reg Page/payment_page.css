@@ -17,7 +17,7 @@
     background-position: center;
   }
 
-  .terms_con{
+  .terms_con_pay{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,7 +35,7 @@
   /* Banner */
 
 
-  .banner{
+  .banner_pay{
     align-items: center;
     justify-content: center;
     padding-left: 5%;
@@ -44,21 +44,21 @@
 
 
   @media(max-width:1150px){
-    .responsive_svg{
+    .responsive_svg_pay{
         width: 900px;
     }
   }
 
 
   @media(max-width:855px){
-    .responsive_svg{
+    .responsive_svg_pay{
         width: 600px;
     }
   }
 
 
   @media(max-width:550px){
-    .responsive_svg{
+    .responsive_svg_pay{
         width: 400px;
     }
   }
@@ -66,7 +66,7 @@
 
 
   @media(max-width:395px){
-    .responsive_svg{
+    .responsive_svg_pay{
         width: 300px;
     }
   }
@@ -79,7 +79,7 @@
 
   /* Exploration */
 
-  .exploration{
+  .exploration_pay{
     font-size: 85px;
     font-family: 'Iceberg', sans-serif;
     font-weight: 400;
@@ -91,28 +91,28 @@
 
 
   @media(max-width:1150px){
-    .exploration{
+    .exploration_pay{
         font-size: 60px;
     }
   }
 
 
   @media(max-width:855px){
-    .exploration{
+    .exploration_pay{
       font-size: 40px;
     }
   }
 
 
   @media(max-width:550px){
-    .exploration{
+    .exploration_pay{
       font-size: 27px;
       margin-top: 5px;
     }
   }
 
   @media(max-width:395px){
-    .exploration{
+    .exploration_pay{
       font-size: 23px;
       margin-top: 5px;
     }
@@ -130,7 +130,7 @@
 
   /* Form-Heading */
 
-  .form_head{
+  .form_head_pay{
     font-size: 40px;
     font-family: 'Digital Numbers', sans-serif;
     font-weight: 400;
@@ -139,21 +139,21 @@
 
 
   @media(max-width:1150px){
-    .form_head{
+    .form_head_pay{
         font-size: 30px;
     }
   }
 
 
   @media(max-width:855px){
-    .form_head{
+    .form_head_pay{
       font-size: 20px;
     }
   }
 
 
   @media(max-width:550px){
-    .form_head{
+    .form_head_pay{
       font-size: 15px;
       margin-top: 5px;
       margin-bottom: 5px;
@@ -161,7 +161,7 @@
   }
 
   @media(max-width:395px){
-    .form_head{
+    .form_head_pay{
       font-size: 12px;
       margin-top: 5px;
       margin-bottom: 9px;
@@ -184,7 +184,7 @@
   /* Box of Terms and Conditions */
 
 
-  .box_col{
+  .box_col_pay{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -208,7 +208,7 @@
 
 
 
-  .term_head{
+  .term_head_pay{
     color: #ffffff;
     font-size: 30px;
     font-family: 'Electrolize', sans-serif;
@@ -216,7 +216,7 @@
   }
 
 
-  .points_row1{
+  .points_row1_pay{
     display: flex;
     flex-direction: row;
     justify-items: flex-start;
@@ -229,7 +229,7 @@
 
 
 
-  .points{
+  .points_pay{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -239,7 +239,7 @@
   }
 
 
-  .points1{
+  .points1_pay{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -252,7 +252,7 @@
   
 
 
-  .points_row{
+  .points_row_pay{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -262,7 +262,7 @@
 
 
 
-  .para1{
+  .para1_pay{
     color: #ffffff;
     font-weight: 400;
     font-size: 20px;
@@ -270,7 +270,7 @@
   }
 
 
-  .para{
+  .para_pay{
     color: #ffffff;
     font-weight: 400;
     font-size: 28px;
@@ -278,7 +278,7 @@
   }
 
 
-  .price1{
+  .price1_pay{
     color: #ffffff;
     font-weight: 400;
     font-size: 28px;
@@ -311,47 +311,47 @@
 
 
   @media(max-width:1045px){
-    .box_col{
+    .box_col_pay{
       width: 800px;
       height: 520px;
       padding-top: 0px;
     }
 
-    .points{
+    .points_pay{
       gap: 20px ;
     }
 
-    .points1{
+    .points1_pay{
       gap: 20px ;
     }
 
-    .term_head{
+    .term_head_pay{
       margin-top: 50px;
     }
 
   }
 
   @media(max-width:835px){
-    .box_col{
+    .box_col_pay{
       width: 600px;
       height: 470px;
     }
 
     
-    .term_head{
+    .term_head_pay{
       font-size: 23px;
       margin-top: 30px;
     }
 
-    .para{
+    .para_pay{
       font-size: 20px;
     }
 
-    .para1{
+    .para1_pay{
       font-size: 18px;
     }
 
-    .price1{
+    .price1_pay{
       font-size: 19px;
     }
 
@@ -360,20 +360,20 @@
 
 
   @media(max-width:630px){
-    .box_col{
+    .box_col_pay{
       width: 500px;
       height: 450px;
     }
 
-    .para{
+    .para_pay{
       font-size: 16px;
     }
 
-    .para1{
+    .para1_pay{
       font-size: 15px;
     }
 
-    .price1{
+    .price1_pay{
       font-size: 15px;
     }
 
@@ -388,28 +388,28 @@
 
 
   @media(max-width:525px){
-    .box_col{
+    .box_col_pay{
       width: 450px;
       height: 415px;
     }
 
-    .points{
+    .points_pay{
       gap: 20px ;
     }
 
-    .term_head{
+    .term_head_pay{
       margin-top: 15px;
     }
 
-    .para{
+    .para_pay{
       font-size: 14px;
     }
 
-    .para1{
+    .para1_pay{
       font-size: 14px;
     }
 
-    .price1{
+    .price1_pay{
       font-size: 14px;
     }
 
@@ -419,24 +419,24 @@
 
 
   @media(max-width:475px){
-    .box_col{
+    .box_col_pay{
       width: 400px;
       height: 400px;
     }
 
-    .points{
+    .points_pay{
       gap: 20px ;
     }
 
-    .term_head{
+    .term_head_pay{
       margin-top: 15px;
     }
 
-    .para{
+    .para_pay{
       font-size: 12.65px;
     }
 
-    .para1{
+    .para1_pay{
       font-size: 13px;
     }
 
@@ -449,24 +449,24 @@
 
 
   @media(max-width:415px){
-    .box_col{
+    .box_col_pay{
       width: 375px;
       height: 380px;
     }
 
-    .points{
+    .points_pay{
       gap: 20px ;
     }
 
-    .term_head{
+    .term_head_pay{
       margin-top: 15px;
     }
 
-    .para{
+    .para_pay{
       font-size: 11px;
     }
 
-    .para1{
+    .para1_pay{
       font-size: 12px;
     }
 
@@ -485,29 +485,29 @@
 
 
   @media(max-width:385px){
-    .box_col{
+    .box_col_pay{
       width: 350px;
       height: 350px;
     }
 
-    .points{
+    .points_pay{
       gap: 20px ;
     }
 
-    .term_head{
+    .term_head_pay{
       font-size: 20px;
       margin-top: 12px;
     }
 
-    .para{
+    .para_pay{
       font-size: 10px;
     }
 
-    .para1{
+    .para1_pay{
       font-size: 11px;
     }
 
-    .price1{
+    .price1_pay{
       font-size: 11px;
     }
 
@@ -525,32 +525,32 @@
 
 
   @media(max-width:365px){
-    .box_col{
+    .box_col_pay{
       width: 300px;
       height: 340px;
     }
 
-    .points{
+    .points_pay{
       gap: 20px ;
     }
 
-    .term_head{
+    .term_head_pay{
       font-size: 18px;
     }
 
-    .btn{
+    .btn_pay{
       margin-inline-start: 15px;
     }
 
-    .para{
+    .para_pay{
       font-size: 8px;
     }
 
-    .para1{
+    .para1_pay{
       font-size: 8px;
     }
 
-    .price1{
+    .price1_pay{
       font-size: 9px;
     }
 
@@ -586,7 +586,7 @@
    /* Accept Button */
 
 
-   .btn{
+   .btn_pay{
     border: 2px solid rgba(11, 11, 189, 0.5);
     border-radius: 11px;
     padding: 9px;
@@ -602,7 +602,7 @@
   }
 
 
-  .btn:hover{
+  .btn_pay:hover{
     cursor: pointer;
     transform: scale(1.07);
   }
@@ -610,7 +610,7 @@
 
 
   @media(max-width:1150px){
-    .btn{
+    .btn_pay{
         width: 300px;
         height: 55px;
         font-size: 20px;
@@ -625,7 +625,7 @@
   } */
 
   @media(max-width:630px){
-    .btn{
+    .btn_pay{
      margin-top: 30px;
      width: 270px;
      height: 52px;
@@ -635,7 +635,7 @@
   
 
   @media(max-width:475px){
-    .btn{
+    .btn_pay{
       margin-top: 20px;
       width: 245px;
       height: 49px;
@@ -648,7 +648,7 @@
 
   
   @media(max-width:415px){
-    .btn{
+    .btn_pay{
       margin-top: 10px;
       width: 230px;
       height: 45px;
@@ -658,7 +658,7 @@
 
 
   @media(max-width:365px){
-    .btn{
+    .btn_pay{
       margin-top: 5px;
       width: 185px;
       height: 40px;
